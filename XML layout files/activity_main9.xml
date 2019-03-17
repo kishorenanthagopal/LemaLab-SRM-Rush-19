@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
-
+    tools:context=".MainActivity9">
 
 
     <LinearLayout
@@ -18,12 +16,12 @@
         tools:layout_editor_absoluteY="94dp">
 
         <ImageView
-        android:id="@+id/kishire"
-        android:layout_width="170dp"
-        android:layout_height="100dp"
-        android:layout_marginLeft="120dp"
-        android:layout_marginTop="0dp"
-        app:srcCompat="@drawable/lema" />
+            android:id="@+id/kishire"
+            android:layout_width="170dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@drawable/lema" />
 
         <ViewFlipper
             android:id="@+id/viewflipper1"
@@ -56,10 +54,10 @@
             android:layout_width="317dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="50dp"
+            android:layout_marginBottom="20dp"
             android:text="Lema Labs is a company founded by IIT Alumni under the guidance of faculty members of IIT Madras.We are striving to build an ecosystem for emerging technologies by providing support to stakeholders which include student community, educational institutions and the industry. "
             android:textColor="@android:color/background_light"
             android:textSize="18sp"
-            android:layout_marginBottom="20dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             tools:layout_editor_absoluteY="62dp" />
@@ -108,6 +106,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             tools:layout_editor_absoluteY="62dp" />
+
         <Button
             android:id="@+id/iotbtn"
             android:layout_width="wrap_content"
@@ -121,17 +120,16 @@
             android:id="@+id/textView7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Machine Learning"
             android:layout_marginLeft="110dp"
             android:layout_marginTop="20dp"
             android:layout_marginBottom="10dp"
+            android:text="Machine Learning"
             android:textColor="@android:color/background_light"
             android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             tools:layout_editor_absoluteY="62dp" />
-
 
 
         <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -147,6 +145,7 @@
                 android:layout_height="200dp"
                 android:layout_gravity="center" />
         </RelativeLayout>
+
         <TextView
             android:id="@+id/textView1"
             android:layout_width="313dp"
@@ -173,10 +172,10 @@
             android:id="@+id/textView8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Kaizen Robatic"
             android:layout_marginLeft="120dp"
             android:layout_marginTop="20dp"
             android:layout_marginBottom="10dp"
+            android:text="Kaizen Robatic"
             android:textColor="@android:color/background_light"
             android:textSize="24sp"
             android:textStyle="bold"
@@ -227,11 +226,11 @@ program has been rated a 4.5 out of 5 by the participants."
             android:id="@+id/viEW"
             android:layout_width="262dp"
             android:layout_height="3dp"
-            android:layout_marginTop="10dp"
             android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="15dp"
             android:background="#ffff "
             app:layout_constraintBottom_toBottomOf="parent"
-            android:layout_marginBottom="15dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.275"
             app:layout_constraintStart_toStartOf="parent"
@@ -241,6 +240,7 @@ program has been rated a 4.5 out of 5 by the participants."
         <RelativeLayout
             android:layout_width="500dp"
             android:layout_height="33dp">
+
             <ImageView
                 android:id="@+id/twitterbtn"
                 android:layout_width="30dp"
